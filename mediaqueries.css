@@ -1,0 +1,12 @@
+/*1rem = 1em = 16px*/
+/***********************/
+/*Below 1232px(Landscape Tablets)*/
+/***********************/
+@media (max-width: 26em) {
+  .container {
+    flex-direction: column;
+  }
+  .countries {
+    flex-direction: column;
+  }
+}
